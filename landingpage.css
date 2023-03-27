@@ -1,0 +1,8 @@
+.header {
+    background: #31496b;
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+    justify-content: space-between;
+}
+
