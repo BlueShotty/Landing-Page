@@ -1,4 +1,4 @@
-.header {
+.top {
     background: #31496b;
     display: flex;
     flex-direction: row;
@@ -6,3 +6,42 @@
     justify-content: space-between;
 }
 
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: red;
+    font-size: 48px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: blue;
+    font-size: 48px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: red;
+    font-size: 48px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: blue;
+    font-size: 48px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: red;
+    font-size: 48px;
+}
