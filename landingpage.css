@@ -1,9 +1,26 @@
 .top {
-    background: #31496b;
+    background: #1F2937;
+    height: 250px;
     display: flex;
     flex-direction: row;
+    color: white;
+
+}
+
+.headerlogo {
+    justify-content: flex-start;
+    display: flex;
     font-size: 48px;
+    padding-left: 75px;
+    
+}
+
+.toplinks {
+    justify-content: flex-end;
+    display: flex;
+    font-size: 24px;
     justify-content: space-between;
+    align-content: end;
 }
 
 .section1 {
@@ -34,14 +51,17 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: blue;
+    background-color: white;
     font-size: 48px;
 }
 
 .footer {
     display: flex;
-    justify-content: space-evenly;
+    height: 30px;
+    justify-content: center;
     flex-direction: row;
-    background-color: red;
-    font-size: 48px;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 20px;
+    color: white;
 }
